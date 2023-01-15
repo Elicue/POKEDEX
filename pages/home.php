@@ -98,7 +98,7 @@
           </div>
           <div class="weaknesses bg-white shadow-md w-[45%] items-center text-center justify-center my-6 rounded-xl">
             <h1 class="uppercase text-grisFonce font-bold text-xl mt-2">Weaknesses</h1>
-            <div class="weak w-11/12 mx-auto my-4 py-2 rounded uppercase font-semibold text-white"></div>
+            <div class="weak w-10/12 mx-auto my-4 py-2 rounded uppercase font-semibold text-white"></div>
             <!-- <div class="weak_01">Flying</div>
             <div class="weak_02">Fire</div>
             <div class="weak_03">Psychic</div>

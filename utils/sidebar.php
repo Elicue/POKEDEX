@@ -1,5 +1,5 @@
 
-<div class="sideBar flex flex-col py-3 bg-white text-grisFonce justify-between w-[12%] shadow-md fixed h-screen text-lg">
+<div class="sideBar flex flex-col py-3 bg-white text-grisFonce justify-between w-[12%] shadow-md fixed h-screen text-lg z-50">
   <button class="All bg-gris p-1 rounded-md w-10/12 mx-auto focus:text-gris focus:bg-black uppercase text-black">All</button>
   <button class="Normal bg-gris p-1 rounded-md w-10/12 mx-auto focus:text-gris focus:bg-normal uppercase text-normal">Normal</button>
   <button class="Fighting bg-gris p-1 rounded-md w-10/12 mx-auto focus:text-gris focus:bg-fighting uppercase text-fighting">Fighting</button>
