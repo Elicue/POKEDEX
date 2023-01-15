@@ -6,7 +6,7 @@
   <main class="text-black ml-[12%] mt-[7vh] flex flex-col">
     <template class="template__pokemon flex flex-row">
       <div class="pokemon flex flex-row justify-between hover:bg-gris bg-white">
-        <div class="card pt-6 w-[35%]">
+        <div class="card py-6 w-[35%]">
           <div class="bg-white shadow-md w-10/12 mx-auto rounded-3xl relative text-center pb-6">
             <p class="pokemon__id text-gris2 text-[100px] font-bold">#001</p>
             <img class="pokemon__img absolute translate-x-3/4 -translate-y-[18vh] w-[20vh]">
@@ -84,21 +84,21 @@
             </div>
           </div>
         </div>
-        <div class="droite flex flex-row bg-blue-500  w-[30%]">
-          <div class="evolutions">
-            <h1>Evolutions</h1>
-            <img class="pokemon__current" src="#">
-            <ion-icon name="arrow-down-outline"></ion-icon>
+        <div class="droite flex flex-row justify-around w-[30%]">
+          <div class="evolutions bg-white shadow-md w-[45%] items-center text-center justify-center my-6 rounded-xl">
+            <h1 class="uppercase text-grisFonce font-bold text-xl mt-2">Evolutions</h1>
+            <img class="pokemon__current w-[16vh] translate-x-[20%] -mb-3 -mt-2" src="#">
+            <ion-icon class="last:hidden" name="arrow-down-outline"></ion-icon>
             <!-- <p>Level 16</p> -->
-            <img class="pokemon__next" src="#">
+            <img class="pokemon__next w-[16vh] translate-x-[20%] -mt-4" src="#">
             <!-- <img src="images/herbizarre.png" alt="herbizarre">
             <ion-icon name="arrow-forward-outline"></ion-icon>
             <p>Level 32</p>
             <img src="images/florizarre.png" alt="florizarre"> -->
           </div>
-          <div class="weaknesses">
-            <h1>Weaknesses</h1>
-            <div class="weak"></div>
+          <div class="weaknesses bg-white shadow-md w-[45%] items-center text-center justify-center my-6 rounded-xl">
+            <h1 class="uppercase text-grisFonce font-bold text-xl mt-2">Weaknesses</h1>
+            <div class="weak w-11/12 mx-auto my-4 py-2 rounded uppercase font-semibold text-white"></div>
             <!-- <div class="weak_01">Flying</div>
             <div class="weak_02">Fire</div>
             <div class="weak_03">Psychic</div>
