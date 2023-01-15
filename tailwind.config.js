@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
+        id:'#EAE8E7',
         noir:'#191919',
         grisFonce:'#67635F',
         gris:'#F7F8F7',
