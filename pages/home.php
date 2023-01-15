@@ -8,7 +8,7 @@
       <div class="pokemon flex flex-row justify-between hover:bg-gris bg-white">
         <div class="card pt-6 w-[35%]">
           <div class="bg-white shadow-md w-10/12 mx-auto rounded-3xl relative text-center pb-6">
-            <p class="pokemon__id text-id text-[100px] font-bold">#001</p>
+            <p class="pokemon__id text-gris2 text-[100px] font-bold">#001</p>
             <img class="pokemon__img absolute translate-x-3/4 -translate-y-[18vh] w-[20vh]">
             <div class="name flex flex-row  justify-center items-center">
               <input class="w-4 h-4" type="checkbox"> 
@@ -32,53 +32,55 @@
             </div>
           </div>
         </div>
-        <div class="stats bg-green-500  w-[35%]">
-          <div class=" stat pokemon__hp">
-            <h4>Hp</h4>
-            <p>45</p>               
-            <!-- <progress max="255" value="45"> 70% </progress> -->
-            <div class="barre">
-              <div class="inside"></div>
-            </div>
-          </div>
-          <div class=" stat pokemon__atk">
-            <h4>Attack</h4>
-            <p>490</p>               
-            <!-- <progress max="255" value="49"></progress> -->
-            <div class="barre">
-              <div class="inside"></div>
-            </div>
-          </div>
-          <div class=" stat pokemon__def">
-            <h4>Defense</h4>
-            <p>65</p>               
-            <!-- <progress max="255" value="65"></progress> -->
-            <div class="barre">
-              <div class="inside"></div>
-            </div>
-          </div>
-          <div class=" stat pokemon__speAtk">
-              <h4>Special Attack</h4>
-              <p>65</p>               
-              <!-- <progress max="255" value="65"></progress> -->
-              <div class="barre">
-                  <div class="inside"></div>
+        <div class="stats w-[35%] pt-6 items-center flex">
+          <div class="w-10/12 mx-auto relative text-center">
+            <div class=" text-right justify-end stat pokemon__hp flex flex-row items-center">
+              <h4 class="text-normal font-semibold">Hp</h4>
+              <p class="text-grisFonce mx-4 font-semibold">45</p>               
+              <!-- <progress max="255" value="45"> 70% </progress> -->
+              <div class="bg-gris2 h-4 w-52 rounded barre">
+                <div class="inside w-full h-4 rounded"></div>
               </div>
-          </div>
-          <div class=" stat pokemon__speDef">
-            <h4>Special Defense</h4>
-            <p>65</p>               
-            <!-- <progress max="255" value="65"></progress> -->
-            <div class="barre">
-              <div class="inside"></div>
             </div>
-          </div>
-          <div class=" stat pokemon__spd">
-            <h4>Speed</h4>
-            <p>45</p>               
-            <!-- <progress max="255" value="45"></progress> -->
-            <div class="barre">
-              <div class="inside"></div>
+            <div class=" text-right justify-end stat pokemon__atk flex flex-row items-center">
+              <h4 class="text-normal font-semibold">Attack</h4>
+              <p class="text-grisFonce mx-4 font-semibold">490</p>               
+              <!-- <progress max="255" value="49"></progress> -->
+              <div class="bg-gris2 h-4 w-52 rounded barre">
+                <div class="inside w-full h-4 rounded"></div>
+              </div>
+            </div>
+            <div class=" text-right justify-end stat pokemon__def flex flex-row items-center">
+              <h4 class="text-normal font-semibold">Defense</h4>
+              <p class="text-grisFonce mx-4 font-semibold">65</p>               
+              <!-- <progress max="255" value="65"></progress> -->
+              <div class="bg-gris2 h-4 w-52 rounded barre">
+                <div class="inside w-full h-4 rounded"></div>
+              </div>
+            </div>
+            <div class="stat text-right justify-end pokemon__speAtk flex flex-row items-center">
+                <h4 class="text-normal font-semibold">Special Attack</h4>
+                <p class="text-grisFonce mx-4 font-semibold">65</p>               
+                <!-- <progress max="255" value="65"></progress> -->
+                <div class="bg-gris2 h-4 w-52 rounded barre">
+                    <div class="inside w-full h-4 rounded"></div>
+                </div>
+            </div>
+            <div class=" text-right justify-end stat pokemon__speDef flex flex-row items-center">
+              <h4 class="text-normal font-semibold">Special Defense</h4>
+              <p class="text-grisFonce mx-4 font-semibold">65</p>               
+              <!-- <progress max="255" value="65"></progress> -->
+              <div class="bg-gris2 h-4 w-52 rounded barre">
+                <div class="inside w-full h-4 rounded"></div>
+              </div>
+            </div>
+            <div class=" text-right justify-end stat pokemon__spd flex flex-row items-center">
+              <h4 class="text-normal font-semibold">Speed</h4>
+              <p class="text-grisFonce mx-4 font-semibold">45</p>               
+              <!-- <progress max="255" value="45"></progress> -->
+              <div class="bg-gris2 h-4 w-52 rounded barre">
+                <div class="inside w-full h-4 rounded"></div>
+              </div>
             </div>
           </div>
         </div>
